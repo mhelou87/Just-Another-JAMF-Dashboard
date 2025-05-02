@@ -1,13 +1,18 @@
-# Just Another Jamf Dashboard
+# Just Another JAMF Dashboard
 
-A Google Sheets template for a custom Jamf dashboard - a tool to help your IT/MDM teams manage their environment and quickly share high-level views of what's under the hood with stakeholders.
+A Google Sheets template for a JAMF dashboard - a tool to help your IT/MDM/CPE teams manage their environment and share high-level views with stakeholders.
 
-While this was designed with the JAMF MDM product in mind, it could likely be adapted for other tools as well. 
+While this was designed with the JAMF product in mind, it could be adapted for other tools as well. This is meant to be a starting point, feel free to make further customizations as needed by your environment.
 
-### Tab Guide:
-- Dashboard; This pulls data from the other tabs, providing the simplist high-level view.
-- PreStage Enrollment; If you have multiple PSE, keep notes on what's being configured or enforced.
-- Policies; List out what policies are executing, whether they are Scripts, PKG, or "Other" payloads in effect. Additional columns help indicate the use of custom PKG builds, the scoping at a PSE level, as well as keeping notes or reference links. 
-- Configuration Profiles; Lists out what ConfigProfiles are being pushed down indicating simple scoping by PSE. 
-- Extension Attributes; Lists out what ExtAttr are being used. 
-- Maintenance; This pulls data from other tabs and provides a Monthly Calendar to let you schedule out any required maintenance needs. If you ever need to audit the assets in one of your PSE's, update a PKG from a vendor, or update a batch of Smart Groups, this can let you find an optimal scheduling cadence and provide links to the scheduled event for reference. 
+## Tab Guide:
+**Dashboard** <br> This pulls data from the other tabs, providing the simplest high-level view of the JSS. Users will need to update all formulae on this tab after duplicating the Google Sheet. 
+
+**PreStage Enrollment**; <br> Keep notes on what's being configured or enforced by payload, identify distinct groups.
+
+**Policies**; <br> See how Policies are configured, like if they are using scripts or PKGs & the availability via Policy or Self Service. Additional columns help indicate the use of JAMF Composer for custom PKG builds, the scoping at PreStage Enrollment level.
+
+**Configuration Profiles**; <br> Lists out what is being pushed down, indicating simple scoping by PreStage Enrollment. 
+
+**Extension Attributes**; <br> Lists out what ExtAttr are being used. 
+
+**Maintenance**; <br> This pulls data from other tabs and provides a 12 month calendar to let you schedule out any required maintenance needs. Wether that's auditing the assets in a PreStage Enrollment, updating a PKG from a vendor, or updating Smart Group parameters, this can let you find an optimal scheduling cadence and you can utilize Google Sheet's "Smart Chips" to provide a link to the event for reference. 
