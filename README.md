@@ -1,7 +1,7 @@
 # Just Another JAMF Dashboard
 ### Originally presented at MacAdmins Conference, July 2025
 
-![Screenshot of the Dashboard.](/images/dashboard-screenshots.png)
+![Screenshot of the Dashboard.](/images/dashboard-screenshot.png)
 
 A Google Sheets template for a JAMF dashboard - a tool to help your IT/MDM/CPE teams manage their environment and share high-level views with stakeholders.
 
