@@ -9,7 +9,7 @@ A Google Sheets template for a JAMF dashboard - a tool to help your IT/MDM/CPE t
 
 While this was designed with the JAMF product in mind, it could be adapted for other tools as well. This is meant to be a starting point, feel free to make further customizations as needed by your environment.
 
-Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1nmYL8qkzL67wd4P0dxh9Rbt_cPxx0PNoQxEh10dcYZ8/copy) to access your own copy of this template.
+Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1nmYL8qkzL67wd4P0dxh9Rbt_cPxx0PNoQxEh10dcYZ8/template/preview) to get a copy of this template.
 
 ## Tab Guide:
 **Dashboard**; <br> This pulls data from the other tabs, providing the simplest high-level view of the JSS. Users will need to update all formulae on this tab after duplicating the Google Sheet. 
