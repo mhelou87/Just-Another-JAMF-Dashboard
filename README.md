@@ -19,15 +19,15 @@ Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9d
 
 1. Click the link above to get your own copy of the template. Copy the new URL of your Sheet, "https..../edit", for the next step.
 2. There are 6 formulas to update across two tabs; Dashboard and Maintenance.
-    - Remove the placeholder *__$NEW_URL_HERE__* and insert your new URL within the quotes
-    - Remove the leading *__!__* so the formula will activate
+    - Remove the placeholder *__$NEW_URL_HERE__* and insert your new URL within the quotes.
+    - Remove the leading *__!__* so the formula will activate.
 3. Review and make any customizations as desired. 
 4. Fill in your data on the PreStage, Policies, Configuration Profiles, Extension Attributes, and Maintenance tabs. 
 
 <br>
 
 ## Tab Guide:
-**Dashboard** <br> This pulls data from the other tabs, providing the simplest high-level view of the JSS. Users will need to update the 4 formulas on this tab. 
+**Dashboard** <br> This pulls data from the other tabs, providing the high-level view of the JSS. Users will need to update the 4 formulas on this tab. 
 
 **PreStage Enrollment** <br> Keep notes on what's being configured or enforced by payload.
 
@@ -37,6 +37,6 @@ Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9d
 
 **Extension Attributes** <br> List out the state of ExtAttr's.
 
-**Maintenance** <br> This pulls data from other tabs and provides a 12 month calendar to help you schedule out any required maintenance needs. Whether that's auditing the assets in a PreStage Enrollment, updating a PKG from a vendor, or updating Smart Group parameters, this can help you find an optimal scheduling cadence. Utilize Google Sheet's "Smart Chips" to provide a link to the calendar event for reference. Users will need to update the 2 formulas on this tab.
+**Maintenance** <br> This pulls some data from other tabs and provides a 12 month calendar to help you schedule out any required maintenance needs. Whether that's auditing the assets in a PreStage Enrollment, updating a PKG from a vendor, or updating Smart Group parameters, this can help you find an optimal scheduling cadence. Utilize Google Sheet's "Smart Chips" to provide a link to the calendar event for reference. Users will need to update the 2 formulas on this tab.
 
 <br>
