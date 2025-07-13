@@ -21,7 +21,8 @@ Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9d
 2. There are 6 formulas to update across two tabs; Dashboard and Maintenance.
     - Remove the placeholder *__$NEW_URL_HERE__* and insert your new URL within the quotes.
     - Remove the leading *__!__* so the formula will activate.
-3. Review and make any customizations as desired. 
+3. On the Policies and Configuration Profiles tabs, update the column headers placeholder *__$PSE__* with your PreStage Enrollment (or equivalent) titles. 
+3. Make additional customizations as desired. 
 4. Fill in your data on the PreStage, Policies, Configuration Profiles, Extension Attributes, and Maintenance tabs. 
 
 <br>
