@@ -1,5 +1,5 @@
 # Just Another JAMF Dashboard
-### Presented at MacAdmins 2025
+**First presented at MacAdmins PSU, 2025**
 
 <br>
 
@@ -11,11 +11,28 @@ A Google Sheets template for a JAMF dashboard - a tool to help your IT/MDM/CPE t
 
 While this was designed with the JAMF product in mind, it could be adapted for other platforms as well. This is meant to be a starting point, feel free to make further customizations as needed.
 
-Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9duA_e1Tlcjp7S0KEKbdiNcA/template/preview) to get a copy of this template.
 
 <br>
+<br>
 
-## Getting Started
+## Google Users
+![Google Sheets icon.](/images/logo_sheets_2020q4_color_1x_web_96dp.png)  
+    Make sure you are signed in first, then click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9duA_e1Tlcjp7S0KEKbdiNcA/template/preview) to quickly duplicate a copy of this template.
+<br>
+<br>
+
+## Office365 Users
+![Microsoft Excel icon.](/images/Microsoft_Office_Excel_(2019–present).png)  
+    No need to have a Google account! Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9duA_e1Tlcjp7S0KEKbdiNcA/edit) and then navigate along the Google Sheets drop down menu "File > Download >..." and select your file type of choice. 
+    <br> _**Disclaimer**_: _The transfer to Excel has not been tested and so no guarantee's are made as to the preservation of custom formatting. Additionally, the formula in use must be updated from Google's "importrange" to Excel's equivalent "workbook links"; Find out more from the official article from [Microsoft Support](https://support.microsoft.com/en-us/office/create-workbook-links-c98d1803-dd75-4668-ac6a-d7cca2a9b95f)._
+
+<br>
+<br>
+
+---
+
+
+### Getting Started
 
 1. Click the link above to get your own copy of the template. Copy the new URL of your Sheet, "https..../edit", for the next step.
 2. There are 6 formulas to update across two tabs; Dashboard and Maintenance.
@@ -26,8 +43,11 @@ Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9d
 4. Fill in your data on the PreStage, Policies, Configuration Profiles, Extension Attributes, and Maintenance tabs. 
 
 <br>
+<br>
 
-## Tab Guide:
+---
+
+### Tab Guide:
 **Dashboard** <br> This pulls data from the other tabs, providing the high-level view of the JSS. Users will need to update the 4 formulas on this tab. 
 
 **PreStage Enrollment** <br> Keep notes on what's being configured or enforced by payload.
@@ -40,4 +60,4 @@ Click [RIGHT HERE](https://docs.google.com/spreadsheets/d/1CpdAGVssBiA5Ef8Y49X9d
 
 **Maintenance** <br> This pulls some data from other tabs and provides a 12 month calendar to help you schedule out any required maintenance needs. Whether that's auditing the assets in a PreStage Enrollment, updating a PKG from a vendor, or updating Smart Group parameters, this can help you find an optimal scheduling cadence. Utilize Google Sheet's "Smart Chips" to provide a link to the calendar event for reference. Users will need to update the 2 formulas on this tab.
 
-<br>
+---
