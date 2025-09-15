@@ -1,6 +1,7 @@
 # Just Another JAMF Dashboard
-**First presented at MacAdmins PSU, 2025**
-
+**First presented at MacAdmins PSU, 2025** 
+<br>
+[Watch on YouTube](https://youtu.be/_sdBObNgb9c?si=MVptcTK80_sKom0Q)
 <br>
 
 ![Screenshot of the Dashboard.](/images/dashboard-screenshot.png)
